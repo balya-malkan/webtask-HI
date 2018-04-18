@@ -1,5 +1,5 @@
 <?php
-
+// controller untuk schedule
 class Schedule extends CI_controller
 {
 
