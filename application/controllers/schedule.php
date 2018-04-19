@@ -82,7 +82,7 @@ class Schedule extends CI_controller
 			}
 		
 		}
-		
+		//function untuk tanggal sebelumnya
 		function PrevMonth ($nYear, $nMonth){
 			$NextDate	= new DateTime(''.$nYear.'-'.$nMonth.'-1'); 
 			$NextDate->modify('-1 month');
