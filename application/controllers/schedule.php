@@ -47,7 +47,7 @@ class Schedule extends CI_controller
 					GROUP_CONCAT(if(t2.idUser = 16, t1.sdestination, Null)separator ', ') as 'Mr. Simin W',
 					GROUP_CONCAT(if(t2.idUser = 17, t1.sdestination, Null)separator ', ') as 'Mrs. Yanny',
 					GROUP_CONCAT(if(t2.idUser = 18, t1.sdestination, Null)separator ', ') as 'Mrs. Rinayani',
-					GROUP_CONCAT(if(t2.idUser = 19, t1.sdestination, Null)separator ', ') as 'Mr. Mukiyar',
+					GROUP_CONCAT(if(t2.idUser = 19, t1.sdestination, Null)separator ', ') as 'Mr.git  Mukiyar',
 					GROUP_CONCAT(if(t2.idUser = 20, t1.sdestination, Null)separator ', ') as 'Mr. Alif Cholisana',
 					GROUP_CONCAT(if(t2.idUser = 117, t1.sdestination, Null)separator ', ') as 'Mr. Ali Akbar',
 				 	GROUP_CONCAT(if(t2.idUser = 21, t1.sdestination, Null)separator ', ') as 'Mr. Adiya Talka Lubis',
